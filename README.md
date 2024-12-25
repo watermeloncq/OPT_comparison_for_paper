@@ -5,7 +5,7 @@
 
 ## 1. About
 
-This is the source code for comparing different optimization models in paper ([arXiv:2412.18563](https://arxiv.org/abs/2412.18563)), with training reward visualization module.
+This is the source code for comparing different optimization models in paper: [arXiv:2412.18563](https://arxiv.org/abs/2412.18563), with training reward visualization module.
 
 ## 2. Required Python Packages
 
