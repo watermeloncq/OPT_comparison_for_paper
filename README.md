@@ -30,13 +30,15 @@ pip install pandas
 
 ## 3. Prerequisites for Code Execution
 
+Clone or download the repository to your local machine.
+
 Store data files in the following directories:
 
-**Stock data from WIND database:** ./Stocks/data/stocks-for-process
+- **Stock data from WIND database:** "./Stocks/data/stocks-for-process/"
 
-**Tensorboard logs (modify path in source code):** ./extract_tblog/data/stokcs/
+- **Tensorboard logs (modify path in source code):** "./extract_tblog/data/stokcs/"
 
-**Backtesting results (modify path in source code):** ./Stocks/data/DRL_trained_results
+- **Backtesting results (modify path in source code):** "./Stocks/data/DRL_trained_results/"
 
 
 
