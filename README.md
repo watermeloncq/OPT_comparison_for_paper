@@ -1,4 +1,6 @@
 # Paper Code: Comparative Analysis of Optimization Models
+![stock_portfolio_value](https://github.com/user-attachments/assets/c4b40ada-a612-4795-82bc-9da20e8f0b1c)
+![Testingweights cost](https://github.com/user-attachments/assets/6afa554b-27a4-4887-867f-99c160bb9d4f)
 
 ## 1. About
 
@@ -28,8 +30,11 @@ pip install pandas
 ## 3. Prerequisites for Code Execution
 
 Store data files in the following directories:
+
 **Stock data from WIND database:** ./Stocks/data/stocks-for-process
+
 **Tensorboard logs (modify path in source code):** ./extract_tblog/data/stokcs/
+
 **Backtesting results (modify path in source code):** ./Stocks/data/DRL_trained_results
 
 
@@ -37,9 +42,13 @@ Store data files in the following directories:
 ## 4. Code Execution Steps
 
 Execution Procedure:
+
 Step 1: Extract TensorBoard log data: "./extract_tblog/extract_tblog_to_csv.ipynb"
+
 Step 2: Process stock data: "./Stocks/data/load&processing-chinese-stocks.ipynb"
+
 Step 3: Execute all notebooks in "./OPT_comparison_code/Stocks" (e.g., Stocks_opt_for_ClassicMV_MinRisk.ipynb)
+
 Step 4: Run the following notebooks sequentially:
 - "./plot_DRL_trained_log.ipynb"
 - "./plot_DRL_BackTest.ipynb"
