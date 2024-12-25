@@ -1,6 +1,7 @@
 # Paper Code: Comparative Analysis of Optimization Models
 ![stock_portfolio_value](https://github.com/user-attachments/assets/c4b40ada-a612-4795-82bc-9da20e8f0b1c)
-![Testingweights cost](https://github.com/user-attachments/assets/6afa554b-27a4-4887-867f-99c160bb9d4f)
+![OPT_comparison](https://github.com/user-attachments/assets/cda3ede4-c6c0-4422-8b30-5a91fff526a7)
+
 
 ## 1. About
 
