@@ -50,7 +50,9 @@ Step 1: Extract TensorBoard log data: "./extract_tblog/extract_tblog_to_csv.ipyn
 
 Step 2: Process stock data: "./Stocks/data/load&processing-chinese-stocks.ipynb"
 
-Step 3: Execute all notebooks in "./OPT_comparison_code/Stocks" (e.g., Stocks_opt_for_ClassicMV_MinRisk.ipynb). Note: The backtesting period's start date must be specified in "year-month-day" format within the code line "idx = data.index.get_loc('202X-XX-XX')".
+Step 3: Execute all notebooks in "./OPT_comparison_code/Stocks" (e.g., Stocks_opt_for_ClassicMV_MinRisk.ipynb). 
+
+Note: The backtesting period's start date must be specified in "year-month-day" format within the code line "idx = data.index.get_loc('202X-XX-XX')".
 
 Step 4: Run the following notebooks sequentially:
 - "./plot_DRL_trained_log.ipynb"
@@ -58,6 +60,6 @@ Step 4: Run the following notebooks sequentially:
 - "./plot_OPT_comparison_Stocks.ipynb"
 - "./plot_other_OPT_results_Stocks.ipynb"
 
-  Note: Adjust data file paths as required
+Note: Adjust data file paths as required
 
 And vector graphics of experimental results are stored in "./img"
