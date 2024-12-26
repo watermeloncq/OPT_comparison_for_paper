@@ -5,7 +5,9 @@
 
 ## 1. About
 
-This is the source code for comparing different optimization models in paper: [arXiv:2412.18563](https://arxiv.org/abs/2412.18563), with training reward visualization module.
+This is the source code for comparing different optimization models in the paper: [arXiv:2412.18563](https://arxiv.org/abs/2412.18563), with training reward visualization module.
+
+The code for the deep reinforcement learning portfolio optimization model used in this paper is available at: https://github.com/watermeloncq/drl-dynamic-optimization-portfolio-SB3py37
 
 ## 2. Required Python Packages
 
