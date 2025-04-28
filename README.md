@@ -42,7 +42,8 @@ Store data files in the following directories:
 
 - **Backtesting results (modify path in source code):** "./Stocks/data/DRL_trained_results/"
 
-
+**Important Note for NCO Model:**
+When using the NCO (Nested Clustered Optimization) model, the risk measure parameter `rm` must be set to either 'MV'  or 'CVaR', i.e., `rm = 'MV'` or `rm = 'CVaR'`.
 
 ## 4. Code Execution Steps
 
