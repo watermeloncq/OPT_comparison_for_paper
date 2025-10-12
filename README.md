@@ -27,6 +27,7 @@ pip install tensorboard
 pip install tqdm
 pip install pandas
 pip install statsmodels
+pip install jupyterlab
 ```
 
 
